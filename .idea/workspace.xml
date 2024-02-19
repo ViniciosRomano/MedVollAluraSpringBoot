@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="987b65d2-9006-4b29-aff6-8d8ffab093b3" name="Changes" comment="UP">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/controller/ConsultaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/ValidacaoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/consulta/AgendaConsultas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/consulta/Consulta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/consulta/ConsultaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/consulta/DadosAgendamentoConsulta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/consulta/DadosDetalhamentoConsulta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/infra/security/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/infra/springdoc/SpringDocConfigurations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V3__alter-table-medicos-add-column-ativo.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V4__create-table-paciente.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V5__create-table-usuarios.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V6__create-table-consultas.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V7__alter-table-consulta-add-column-motivo-cancelamento.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/med/voll/api/controller/ConsultaControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/med/voll/api/domain/medico/MedicoRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/71e991a1-5a7d-4df5-ae06-1794b9a9f2c3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/71e991a1-5a7d-4df5-ae06-1794b9a9f2c3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/controller/AutenticacaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/controller/AutenticacaoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/controller/MedicoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/controller/MedicoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/controller/PacienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/controller/PacienteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/controller/helloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/controller/helloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/endereco/DadosEndereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/endereco/DadosEndereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/endereco/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/endereco/Endereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/DadosAtualizaMedico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/DadosAtualizaMedico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/DadosCadastroMedico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/DadosCadastroMedico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/DadosDetalhamentoMedicos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/DadosDetalhamentoMedicos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/DadosListagemMedico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/DadosListagemMedico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/Especialidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/Especialidade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/Medico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/Medico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/MedicoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/MedicoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/paciente/DadosAtualizacaoPaciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/paciente/DadosAtualizacaoPaciente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/paciente/DadosCadastroPaciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/paciente/DadosCadastroPaciente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/paciente/DadosDetalhamentoPaciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/paciente/DadosDetalhamentoPaciente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/paciente/DadosListagemPaciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/paciente/DadosListagemPaciente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/paciente/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/paciente/Paciente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/paciente/PacienteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/paciente/PacienteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/usuario/AutenticacaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/usuario/AutenticacaoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/usuario/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/usuario/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/usuario/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/usuario/UsuarioRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/infra/exception/TratadorDeErros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/infra/exception/TratadorDeErros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/infra/security/DadosTokenJWT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/infra/security/DadosTokenJWT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/infra/security/SecurityConfigurations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/infra/security/SecurityConfigurations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/infra/security/SecurityFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/infra/security/SecurityFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/infra/security/TokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/infra/security/TokenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V3__create-table-usuarios.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/med/voll/api/ApiApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Record" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="vinicios &lt;rm93018@fiap.com.br&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="0b137ef2-8ebd-4fa5-a953-3a7faacbf710" />
+        <option name="url" value="git@github.com:ViniciosRomano/SpringBoot.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2awkENZLIvXmYvs9qudcdrHYxvT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.ConsultaControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MedicoRepositoryTest.escolherMedicoAleatorioLivreNaData.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MedicoRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.api [package].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ApiApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/vinic/IdeaProjects/api/src/main/java/med/voll/api&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vinic/IdeaProjects/CreateAndAlterCad&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;oracle&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="med.voll.api.domain" />
+      <recent name="med.voll.api.controller" />
+      <recent name="med.voll.api.infra.security" />
+      <recent name="med.voll.api.domain.usuario" />
+      <recent name="med.voll.api.medico" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vinic\IdeaProjects\SpringBoot\src\main\resources" />
+      <recent name="C:\Users\vinic\IdeaProjects\SpringBoot\src\main\resources\db\migration" />
+      <recent name="C:\Users\vinic\IdeaProjects\SpringBoot\src\main\java\med\voll\api\domain\consulta\validacao" />
+      <recent name="C:\Users\vinic\IdeaProjects\SpringBoot\src\main\java\med\voll\api\controller" />
+      <recent name="C:\Users\vinic\IdeaProjects\SpringBoot\src\main\java\med\voll\api\domain" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vinic\IdeaProjects\api\src\main\java\med\voll\api\controller" />
+      <recent name="C:\Users\vinic\IdeaProjects\api\src\main\java\med\voll\api" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="med.voll.api.infra.exception" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="med.voll.api.controller" />
+      <recent name="med.voll.api.domain.medico" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="med.voll.api.infra.security" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ApiApplication">
+    <configuration name="V2__create-table-medicos.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/main/resources/db/migration/V2__create-table-medicos.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+    <configuration name="ConsultaControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MedVollAluraSpringBoot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="med.voll.api.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="med.voll.api.controller" />
+      <option name="MAIN_CLASS_NAME" value="med.voll.api.controller.ConsultaControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MedicoRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MedVollAluraSpringBoot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="med.voll.api.domain.medico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="med.voll.api.domain.medico" />
+      <option name="MAIN_CLASS_NAME" value="med.voll.api.domain.medico.MedicoRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MedicoRepositoryTest.escolherMedicoAleatorioLivreNaData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MedVollAluraSpringBoot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="med.voll.api.domain.medico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="med.voll.api.domain.medico" />
+      <option name="MAIN_CLASS_NAME" value="med.voll.api.domain.medico.MedicoRepositoryTest" />
+      <option name="METHOD_NAME" value="escolherMedicoAleatorioLivreNaData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="MedVollAluraSpringBoot" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="MedVollAluraSpringBoot" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="MedVollAluraSpringBoot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="med.voll.api.ApiApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="med.voll.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ApiApplication" />
+        <item itemvalue="JUnit.ConsultaControllerTest" />
+        <item itemvalue="JUnit.MedicoRepositoryTest" />
+        <item itemvalue="JUnit.MedicoRepositoryTest.escolherMedicoAleatorioLivreNaData" />
+        <item itemvalue="Database Script.V2__create-table-medicos.sql" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="987b65d2-9006-4b29-aff6-8d8ffab093b3" name="Changes" comment="" />
+      <created>1705236917224</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705236917224</updated>
+      <workItem from="1705236918219" duration="1610000" />
+      <workItem from="1705239698828" duration="10392000" />
+      <workItem from="1705356594083" duration="611000" />
+      <workItem from="1705357466985" duration="3951000" />
+      <workItem from="1705365419935" duration="3511000" />
+      <workItem from="1705598680837" duration="5485000" />
+      <workItem from="1705615811819" duration="2000" />
+      <workItem from="1705615830099" duration="6000" />
+      <workItem from="1705621362923" duration="2454000" />
+      <workItem from="1705686618534" duration="416000" />
+      <workItem from="1705687071513" duration="916000" />
+      <workItem from="1705696115443" duration="674000" />
+      <workItem from="1706567366590" duration="138000" />
+      <workItem from="1706570358113" duration="73000" />
+      <workItem from="1706570481506" duration="20000" />
+      <workItem from="1706570528248" duration="11000" />
+      <workItem from="1706570605270" duration="1000" />
+      <workItem from="1706570638703" duration="22000" />
+      <workItem from="1706570777748" duration="2000" />
+      <workItem from="1706614615582" duration="6260000" />
+      <workItem from="1706656583007" duration="4000" />
+      <workItem from="1706713378157" duration="3998000" />
+      <workItem from="1706722095751" duration="3561000" />
+      <workItem from="1706726628693" duration="4957000" />
+      <workItem from="1706787336003" duration="7012000" />
+      <workItem from="1706794688964" duration="2587000" />
+      <workItem from="1706798054415" duration="6000" />
+      <workItem from="1706798079120" duration="15000" />
+      <workItem from="1706798113385" duration="9782000" />
+      <workItem from="1706874802639" duration="21318000" />
+      <workItem from="1706912029202" duration="9022000" />
+      <workItem from="1706967492343" duration="1562000" />
+      <workItem from="1707132502399" duration="3799000" />
+      <workItem from="1707154619922" duration="9000" />
+      <workItem from="1707159613123" duration="6539000" />
+      <workItem from="1707172173343" duration="626000" />
+      <workItem from="1707176911884" duration="15000" />
+      <workItem from="1707177597653" duration="1685000" />
+      <workItem from="1707225166294" duration="27000" />
+      <workItem from="1707235086390" duration="1228000" />
+      <workItem from="1707240835327" duration="275000" />
+      <workItem from="1707243082669" duration="712000" />
+      <workItem from="1707249263583" duration="599000" />
+      <workItem from="1707330336444" duration="34000" />
+      <workItem from="1707402627843" duration="28000" />
+      <workItem from="1707402810394" duration="44000" />
+      <workItem from="1707406191185" duration="44000" />
+      <workItem from="1707406464223" duration="23000" />
+      <workItem from="1707510239712" duration="82000" />
+      <workItem from="1707917988215" duration="1542000" />
+      <workItem from="1707922787097" duration="110000" />
+      <workItem from="1707923370579" duration="16000" />
+      <workItem from="1707926869134" duration="45000" />
+      <workItem from="1707933866375" duration="16000" />
+      <workItem from="1707934251279" duration="15000" />
+      <workItem from="1707934390479" duration="43000" />
+      <workItem from="1707934583845" duration="14000" />
+      <workItem from="1707934799288" duration="49000" />
+      <workItem from="1707934911825" duration="4821000" />
+      <workItem from="1708005728565" duration="31000" />
+      <workItem from="1708005819001" duration="12000" />
+    </task>
+    <task id="LOCAL-00001" summary="UP">
+      <option name="closed" value="true" />
+      <created>1705686796196</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705686796196</updated>
+    </task>
+    <task id="LOCAL-00002" summary="UP">
+      <option name="closed" value="true" />
+      <created>1705686837011</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705686837011</updated>
+    </task>
+    <task id="LOCAL-00003" summary="UP">
+      <option name="closed" value="true" />
+      <created>1706722558336</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706722558336</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="71" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="76" />
+                  <entry key="Table.Space.CommitStatus.ColumnIdWidth" value="46" />
+                </map>
+              </option>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="UP" />
+    <option name="LAST_COMMIT_MESSAGE" value="UP" />
+  </component>
+</project>
