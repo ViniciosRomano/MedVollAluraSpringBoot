@@ -5,79 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="987b65d2-9006-4b29-aff6-8d8ffab093b3" name="Changes" comment="Commit Up Aws">
-      <change afterPath="$PROJECT_DIR$/src/assembly/bin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/StreamLambdaHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/controller/PingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/med/voll/api/StreamLambdaHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/med/voll/api/controller/PingController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/71e991a1-5a7d-4df5-ae06-1794b9a9f2c3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/71e991a1-5a7d-4df5-ae06-1794b9a9f2c3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/infra/security/SecurityConfigurations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/infra/security/SecurityConfigurations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/med/voll/api/controller/ConsultaControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/med/voll/api/domain/medico/MedicoRepositoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/ApiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/ApiApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/controller/AutenticacaoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/controller/AutenticacaoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/controller/ConsultaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/controller/ConsultaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/controller/MedicoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/controller/MedicoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/controller/PacienteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/controller/PacienteController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/controller/helloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/controller/helloController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/domain/ValidacaoException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/domain/ValidacaoException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/domain/consulta/AgendaConsultas.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/domain/consulta/AgendaConsultas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/domain/consulta/Consulta.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/domain/consulta/Consulta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/domain/consulta/ConsultaRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/domain/consulta/ConsultaRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/domain/consulta/DadosAgendamentoConsulta.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/domain/consulta/DadosAgendamentoConsulta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/domain/consulta/DadosDetalhamentoConsulta.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/domain/consulta/DadosDetalhamentoConsulta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/domain/consulta/validacoes/agendamento/ValidadorAgendamentoDeConsulta.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/domain/consulta/validacoes/agendamento/ValidadorAgendamentoDeConsulta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/domain/consulta/validacoes/agendamento/ValidadorHorarioAntecedencia.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/domain/consulta/validacoes/agendamento/ValidadorHorarioAntecedencia.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/domain/consulta/validacoes/agendamento/ValidadorHorarioFuncionamentoClinica.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/domain/consulta/validacoes/agendamento/ValidadorHorarioFuncionamentoClinica.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/domain/consulta/validacoes/agendamento/ValidadorMedicoAtivo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/domain/consulta/validacoes/agendamento/ValidadorMedicoAtivo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/domain/consulta/validacoes/agendamento/ValidadorPacienteAtivo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/domain/consulta/validacoes/agendamento/ValidadorPacienteAtivo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/domain/consulta/validacoes/agendamento/ValidadorPacienteSemOutraConsultaNoDia.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/domain/consulta/validacoes/agendamento/ValidadorPacienteSemOutraConsultaNoDia.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/domain/endereco/DadosEndereco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/domain/endereco/DadosEndereco.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/domain/endereco/Endereco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/domain/endereco/Endereco.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/domain/medico/DadosAtualizaMedico.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/domain/medico/DadosAtualizaMedico.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/domain/medico/DadosCadastroMedico.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/domain/medico/DadosCadastroMedico.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/domain/medico/DadosDetalhamentoMedicos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/domain/medico/DadosDetalhamentoMedicos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/domain/medico/DadosListagemMedico.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/domain/medico/DadosListagemMedico.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/domain/medico/Especialidade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/domain/medico/Especialidade.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/domain/medico/Medico.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/domain/medico/Medico.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/domain/medico/MedicoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/domain/medico/MedicoRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/domain/paciente/DadosAtualizacaoPaciente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/domain/paciente/DadosAtualizacaoPaciente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/domain/paciente/DadosCadastroPaciente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/domain/paciente/DadosCadastroPaciente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/domain/paciente/DadosDetalhamentoPaciente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/domain/paciente/DadosDetalhamentoPaciente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/domain/paciente/DadosListagemPaciente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/domain/paciente/DadosListagemPaciente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/domain/paciente/Paciente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/domain/paciente/Paciente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/domain/paciente/PacienteRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/domain/paciente/PacienteRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/domain/usuario/AutenticacaoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/domain/usuario/AutenticacaoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/domain/usuario/DadosAutenticacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/domain/usuario/DadosAutenticacao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/domain/usuario/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/domain/usuario/Usuario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/domain/usuario/UsuarioRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/domain/usuario/UsuarioRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/infra/exception/TratadorDeErros$DadosErrosValidacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/infra/exception/TratadorDeErros$DadosErrosValidacao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/infra/exception/TratadorDeErros.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/infra/exception/TratadorDeErros.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/infra/security/DadosTokenJWT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/infra/security/DadosTokenJWT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/infra/security/SecurityConfigurations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/infra/security/SecurityConfigurations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/infra/security/SecurityFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/infra/security/SecurityFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/infra/security/TokenService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/infra/security/TokenService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/infra/security/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/infra/security/WebConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/med/voll/api/infra/springdoc/SpringDocConfigurations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/med/voll/api/infra/springdoc/SpringDocConfigurations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-med.voll.api.controller.ConsultaControllerTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-med.voll.api.domain.medico.MedicoRepositoryTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/med.voll.api.controller.ConsultaControllerTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/med.voll.api.domain.medico.MedicoRepositoryTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/med/voll/api/controller/ConsultaControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/med/voll/api/domain/medico/MedicoRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assembly/bin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/assembly/bin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template.yml" beforeDir="false" afterPath="$PROJECT_DIR$/template.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +76,8 @@
     "JUnit.MedicoRepositoryTest.escolherMedicoAleatorioLivreNaData.executor": "Run",
     "JUnit.MedicoRepositoryTest.executor": "Run",
     "Maven.MedVollAluraSpringBoot [clean].executor": "Run",
+    "Maven.MedVollAluraSpringBoot [compile].executor": "Run",
+    "Maven.MedVollAluraSpringBoot [install].executor": "Run",
     "Maven.MedVollAluraSpringBoot [package].executor": "Run",
     "Maven.api [package].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
@@ -362,7 +295,8 @@
       <workItem from="1708005728565" duration="31000" />
       <workItem from="1708005819001" duration="12000" />
       <workItem from="1722949394704" duration="4670000" />
-      <workItem from="1726594435327" duration="9342000" />
+      <workItem from="1726594435327" duration="9439000" />
+      <workItem from="1726661465933" duration="6937000" />
     </task>
     <task id="LOCAL-00001" summary="UP">
       <option name="closed" value="true" />
@@ -388,7 +322,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706722558336</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit Up Aws">
+      <option name="closed" value="true" />
+      <created>1726606538784</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726606538785</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Commit Up Aws">
+      <option name="closed" value="true" />
+      <created>1726606573397</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726606573398</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

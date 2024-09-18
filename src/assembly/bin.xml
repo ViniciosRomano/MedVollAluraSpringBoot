@@ -11,8 +11,12 @@
         <fileSet>
             <directory>${project.build.directory}${file.separator}lib</directory>
             <outputDirectory>lib</outputDirectory>
+            <includes>
+                <include>**/*.jar</include>
+            </includes>
             <excludes>
                 <exclude>tomcat-embed*</exclude>
+                <exclude>**/javax.servlet*</exclude>
             </excludes>
         </fileSet>
         <!-- copy all classes -->
@@ -21,7 +25,17 @@
             <includes>
                 <include>**</include>
             </includes>
-            <outputDirectory>${file.separator}</outputDirectory>
+            <outputDirectory>/</outputDirectory>
+        </fileSet>
+
+        <!-- Inclui arquivos de configuração adicionais, se necessário -->
+        <fileSet>
+            <directory>src/main/resources</directory>
+            <outputDirectory>/</outputDirectory>
+            <includes>
+                <include>**/*.yml</include>
+                <include>**/*.properties</include>
+            </includes>
         </fileSet>
     </fileSets>
 </assembly>

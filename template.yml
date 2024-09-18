@@ -1,15 +1,15 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
-Description: AWS Serverless Spring Boot 2 API - med.voll.api::aws-lambda-exemple
+Description: AWS Serverless Spring Boot 2 API - med.voll.api::MedVollAluraSpringBoot
 Globals:
   Api:
     EndpointConfiguration: REGIONAL
 
 Resources:
-  AwsLambdaExempleFunction:
+  MedVollAluraSpringBoot:
     Type: AWS::Serverless::Function
     Properties:
-      handler: med.voll.api.StreamLambdaHandler::handleRequest
+      Handler: med.voll.api.StreamLambdaHandler::handleRequest
       Runtime: java17
       CodeUri: .
       MemorySize: 512
@@ -23,8 +23,8 @@ Resources:
             Method: any
 
 Outputs:
-  AwsLambdaExempleApi:
+  MedVollAluraSpringBoot:
     Description: URL for application
     Value: !Sub 'https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/ping'
     Export:
-      Name: AwsLambdaExempleApi
+      Name: MedVollAluraSpringBoot
