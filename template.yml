@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
-Description: AWS Serverless Spring Boot 2 API - med.voll.api::MedVollAluraSpringBoot
+Description: AWS Serverless Spring Boot 3 API - med.voll.api::MedVollAluraSpringBoot
 Globals:
   Api:
     EndpointConfiguration: REGIONAL
@@ -25,6 +25,6 @@ Resources:
 Outputs:
   MedVollAluraSpringBoot:
     Description: URL for application
-    Value: !Sub 'https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/ping'
+    Value: !Sub 'https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod'
     Export:
       Name: MedVollAluraSpringBoot
